@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:padding="15dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaczynamy!"
+            android:textSize="40sp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/android"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/android"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/football"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/football"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/koszykowka"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/koszykowka"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/tennis"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/tennis"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/baseball"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/baseball"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/black"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+</LinearLayout>

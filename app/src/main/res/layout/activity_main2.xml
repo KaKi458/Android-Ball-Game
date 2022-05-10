@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/wynikP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+
+    <FrameLayout
+        android:id="@+id/frameP"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:id="@+id/startP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaczynamy!"
+            android:textSize="40sp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/androidP"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/android"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/footballP"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/football"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/koszykowkaP"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/koszykowka"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/tennisP"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/tennis"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/baseballP"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/baseball"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/blackP"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/black"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/lewo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:text="Lewo" />
+
+        <Button
+            android:id="@+id/prawo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:text="Prawo" />
+
+    </LinearLayout>
+
+</LinearLayout>

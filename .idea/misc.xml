@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_game_over.xml" value="0.121875" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_info.xml" value="0.2421875" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_level.xml" value="0.2421875" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_main2.xml" value="0.16" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/activity_start.xml" value="0.2152336987882285" />
+        <entry key="..\:/Users/Kacper/AndroidStudioProjects/Gra/app/src/main/res/layout/game_over.xml" value="0.121875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
